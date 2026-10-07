@@ -1,0 +1,42 @@
+body {
+  min-width: 320px;
+  background: #f5f7fb;
+  color: #172b4d;
+}
+
+.app-navbar {
+  background: #173b72;
+}
+
+.page-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.card {
+  border: 1px solid #e3e9f2;
+  box-shadow: 0 4px 16px rgba(28, 54, 91, 0.04);
+}
+
+.stat-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.table > :not(caption) > * > * {
+  vertical-align: middle;
+}
+
+.auth-card {
+  max-width: 560px;
+  margin: 2rem auto;
+}
+
+.bus-map {
+  width: 100%;
+  height: min(65vh, 560px);
+  min-height: 320px;
+}
